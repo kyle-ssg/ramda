@@ -51,6 +51,7 @@
   },
   "main": "./src/index.js",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "require": "./src/index.js",
       "import": "./es/index.js",
